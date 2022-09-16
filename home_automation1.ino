@@ -52,7 +52,7 @@ digitalWrite(buzz,0);
    if(distance_cm>120){   
     Myservo.write(0); 
   }else{
-    Myservo.write(90);            
+    Myservo.write(90);           
   }
     int val = analogRead(tempsensor);
   val = map(val, 20,358, 0,1000);
