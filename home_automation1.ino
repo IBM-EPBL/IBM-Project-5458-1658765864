@@ -1,5 +1,4 @@
-// C++ code
-//
+
 
 #include<Servo.h>
 #define outsensor 2
